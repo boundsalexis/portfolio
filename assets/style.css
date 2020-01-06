@@ -1,0 +1,24 @@
+body{
+    background-image: url("56854.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: hidden;
+   
+}
+   /* img{    
+border-radius: 25px;
+   } */
+   .wormhole{
+    background-image: url('https://media.giphy.com/media/3ohhwoaG5zG7VRHVHq/giphy.gif');
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 20px 20px black inset;
+    position: relative;
+    left:37%;
+    top: 250px;
+    border-radius: 25px;
+    background-blend-mode: overlay;
+   }
