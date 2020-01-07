@@ -6,24 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="assets/style.css">
-    <script src="https://kit.fontawesome.com/5739742b66.js" crossorigin="anonymous"></script></head>
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">   
+    <script src="https://kit.fontawesome.com/36f64c2b5f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>    
+</head>
 <body>
-    <div class = "side-bar">
+    <i class="fas fa-home home fa-4x" id="home"></i>
+    <h1>Enter the Alexis Zone</h1>
+
         <div class="links">
-            <i class="fas fa-home"></i>
-            <i class="fas fa-project-diagram"></i>
-            <i class="fas fa-address-card"></i>
-            <i class="fas fa-envelope"></i>
-            <i class="fab fa-github"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fas fa-photo-video"></i>
-            <!-- <img src="https://media.giphy.com/media/3ohhwoaG5zG7VRHVHq/giphy.gif">aha</img> -->
+            <i class="fas fa-project-diagram projects fa-2x icon" id="projects"></i>
+            <i class="fas fa-envelope contact fa-2x icon" id="contact"></i>
+            <i class="fab fa-github github fa-2x icon" id="github"></i>
+            <i class="fab fa-linkedin linkedin fa-2x icon" id="linkedin"></i>
+            <i class="far fa-id-badge fa-2x icon" id="bio"></i>
         </div>
-    </div>
-    <!-- <div class ="holder"> -->
-    <div class="wormhole">
-            <!-- <img src="https://media.giphy.com/media/3ohhwoaG5zG7VRHVHq/giphy.gif">aha</img> -->
+    <div class="wormhole droppable">
         </div>
-    <!-- </div> -->
+
+    
+    <script src="scripts/bio.js"></script>
+    <script src="scripts/contact.js"></script>
+    <script src="scripts/github.js"></script>
+    <script src="scripts/linkedin.js"></script>
+    <script src="scripts/projects.js"></script>
     </body>
 </html>
